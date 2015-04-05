@@ -17,29 +17,11 @@ function autoload($className)
 
 spl_autoload_register('autoload');
 
-include_once './bootstrap.php';
+$controller = "Default";
 
-$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+if(isset($_GET['ctrl']))
+    $controller = ucfirst(strtolower($_GET['ctrl']));
 
-$str = substr($actual_link, 12 );
-$str_array = explode('/',str);
+$controller = 'rvele\Controllers\\' . $controller . 'Controller';
 
-$number = count($str_array);
-
-foreach($str_array as $value)
-{
-    if($value == "admin")
-    {
-      $contr = new rvele\Controllers\AdminController();
-    }
-    if($value == "front")
-            {
-        $contr = new rvele\Controllers\FrontController();
-    }
-    if($number == 1) {
-        $contr->actionDefault();
-    }
-    else {
-        $contr->action . $value();
-    }
-}
+$foo = new $controller();

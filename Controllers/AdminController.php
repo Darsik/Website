@@ -6,6 +6,11 @@
  * Time: 17:09
  */
 namespace rvele\Controllers;
+
 class AdminController {
-    
+
+    public function __construct() {
+    	echo "foo";
+    }
+
 }
