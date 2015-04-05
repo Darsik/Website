@@ -1,0 +1,416 @@
+.hiddenMenu {
+	display: none;
+	list-style: none;
+	position: absolute;
+	margin: 0px;
+	width: 100%;
+	padding: 0px;
+}
+.dropMenu {
+	list-style: none;
+	position: relative;
+}
+.menu {
+	margin: 0px;
+	padding: 0px;
+}
+.picture {
+	background: url("../img/img_back.jpg") no-repeat bottom;
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+.service {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.hiddenMenu a, .dropMenu p, .menu p {
+	text-decoration: none;
+}
+.threeLine {
+	position: absolute;
+	margin-left: 3px;
+	margin-top: 3px;
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+}
+.hiddenMenu li {
+	width: 100%;
+	font-size: 1.2em;
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.hiddenMenu li a {
+	margin: 15px;
+}
+.backThreeLine {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	left: calc(100vw - 55px);
+	top: -50px;
+	border-radius: 5px;
+	padding: 0px;
+}
+.aboutMe {
+	text-align: center;
+	font-size: 1.1em;
+	margin: 0px;
+	padding: 20px;
+	padding-bottom: 36px;
+	padding-top: 36px;
+}
+.company {
+	position: absolute;
+	color: #F2EEB3;
+	left: 5px;
+	top: 135px;
+	font-size: 1.4em;
+}
+.mainParagraph {
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.first {
+	color: #260126;
+	font-size: 1.4em;
+	text-align: center;
+	margin: 5px;
+}
+.text, .name, .subject {
+	display: block;
+}
+.text {
+	margin-bottom: 4px;
+	border-radius: 5px;
+	width: 100%;
+	height: 120px;
+}
+.name {
+	border-radius: 5px;
+	height: 30px;
+	width: 100%;
+	margin-bottom: 4px;
+}
+.subject {
+	border-radius: 5px;
+	height: 30px;
+	width: 100%;
+	margin-bottom: 4px;
+}
+.fixedLine {
+	z-index: 9900;
+	position: fixed;
+	top: 5px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.fixedColor {
+	background-color: #27130B;
+	transition: background-color 0.5s;
+}
+.comp {
+	top: 0px;
+	padding: 10px;
+	margin-left: -10px;
+}
+.comp1 {
+	top: 0px;
+	padding: 10px;
+	margin-left: -10px;
+	margin-top: -170px;
+}
+.comp2 {
+	top: 0px;
+	padding: 10px;
+	margin-left: -20px;
+	margin-top: -290px;
+	padding-left: 20px;
+}
+.comp3 {
+	top: 0px;
+	padding: 10px;
+	padding-left: 20px;
+	margin-top: -350px;
+	margin-left: -20px;
+}
+.comp4 {
+	top: 0px;
+	padding: 10px;
+	padding-left: 20px;
+	margin-top: -430px;
+	margin-left: -20px;
+}
+.comp5 {
+	top: 0px;
+	padding: 10px;
+	padding-left: 20px;
+	margin-top: -710px;
+	margin-left: -20px;
+}
+.fixMenuBack {
+	position: fixed;
+	top: 0px;
+	padding: 10px;
+	padding-top: 12px;
+}
+.fixMenu {
+	z-index: 9999;
+	width: 35px;
+}
+.fixHidden li{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.fixHidden {
+	position: fixed;
+	top: 46px;
+}
+.hid {
+	margin-top: 35px;
+}
+.submit {
+	border-radius: 5px;
+	height: 30px;
+	float: right;
+	clear: both;
+	margin-bottom: 10px;
+}
+form {
+	margin: 0 auto;
+	width: 90%;
+	height: 240px;
+	padding: 10px;
+}
+.cont {
+	padding-top: 20px;
+	color: white;
+	margin: 0 auto;
+	width: 250px;
+}
+.contact {
+	padding-top: 60px;
+	position: relative;
+}
+.obal2 {
+	padding: 5px;
+	margin: 0 auto;
+}
+.bloky {
+	display: block;
+	margin: 5px;
+}
+.map {
+	width: 85%;
+	height: 240px;
+	margin: 0 auto;
+}
+.email {
+	width: 30px;
+	height: 30px;
+}
+.phone {
+	width: 30px;
+	height: 30px;
+}
+.address {
+	width: 30px;
+	height: 30px;
+}
+
+.mail, .email, .cislo, .phone, .adresa, .address{
+	display: inline-block;
+	vertical-align: top;
+}
+.cislo, .mail, .adresa {
+	margin: 5px;
+}
+footer > * {
+	margin: 0px;
+	padding: 10px;
+	padding-left: 10px;
+	color: white;
+	background-color: #261711;
+}
+footer {
+	height: 30px;
+	width: 100%;
+	margin-top: 20px;
+	position: absolute;
+	bottom: 0px;
+}
+.dlazba, .fasada, .zatepl {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	display: block;
+    margin: 0 auto;
+}
+.fasady, .zatepleni, .dlazby {
+	padding-top: 10px;
+	margin: 0 auto;
+	vertical-align: top;
+}
+.serviceText {
+	text-align: center;
+}
+.obal {
+	padding: 20px;
+}
+@media (min-width: 400px) {
+	.obal {
+		width: 400px;
+		margin: 0 auto;
+	}
+	.fasady, .zatepleni, .dlazby {
+		width: 400px;
+	}
+	.serviceText {
+		width: 300px;
+		padding-left: 50px;
+	}
+	.map {
+		width: 280px;
+		height: 280px;
+	}
+}
+@media (min-width: 500px) {
+	.picture{
+		height: 240px;
+	}
+	.company {
+		top: 170px;
+		font-size: 1.45em;
+		left: 10px;
+	}
+}
+@media (min-width: 600px) {
+	.map, .cont {
+		display: inline-block;
+		vertical-align: text-top;
+	}
+	.obal2 {
+		width: 560px;
+	}
+	.cont {
+		margin-top: 80px;
+		margin-left: 20px;
+	}
+	form {
+		width: 90%;
+	}
+}
+@media (min-width: 768px) {
+	.picture {
+		height: 360px; 
+	}
+	.company {
+		top: 290px;
+		font-size: 1.5em;
+		left: 15px;
+	}
+}
+@media (min-width: 830px) {
+	.obal {
+		width: 830px;
+	}
+	.fasady, .zatepleni {
+		display: inline-block;
+	}
+	.mainParagraph {
+		font-size: 26px;
+	}
+}
+@media (min-width: 991px) {
+	.picture {
+		height: 420px;
+	}
+	form {
+		width: 85%;
+	}
+	.company {
+		top: 350px;
+		font-size: 1.6em;
+		left: 20px;
+	}
+	.hiddenMenu {
+		display: inline;
+		margin-top: -45px;
+		text-align: right;
+	}
+	.hiddenMenu li {
+		display: inline;
+		margin: 10px;
+		background-color: transparent;
+		font-size: 1.3em;
+	}
+	.hiddenMenu li a {
+		color: #F2EEB3;
+	}
+	.backThreeLine {
+		display: none;
+	}
+}
+@media (min-width: 1200px) {
+	.picture {
+		height: 500px;
+	}
+	.company {
+		top: 430px;
+		font-size: 1.7em;
+	}
+	.name {
+		display: inline-block;
+		width: 49.25%;
+	}
+	.subject {
+		display: inline-block;
+		width: 49.25%;
+	}
+	.text {
+		width: 99%;
+	}
+}
+@media (min-width: 1230px) {
+	.obal {
+		width: 1230px;
+	}
+	.dlazby {
+		display: inline-block;
+	}
+	.aboutMe {
+		width: 1230px;
+		margin: 0 auto;
+		padding-top: 50px;
+	}
+	.service {
+		padding-top: 100px;
+	}
+	.obal2 {
+		width: 1000px;
+	}
+	.map {
+		width: 600px;
+	}
+}
+@media (min-width: 1600px) {
+	.picture {
+		height: 780px;
+	}
+	.company {
+		top: 710px;
+		font-size: 1.8em;
+	}
+	.service {
+		padding-top: 200px;
+	}
+	form {
+		height: 340px;
+	}
+}

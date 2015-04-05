@@ -1,0 +1,51 @@
+html {
+	width: 100%;
+}
+.service {
+ 	background-color: #BFAF80;
+ 	min-height: 100vh;
+}
+.introduction {
+	background-color: #F2EEB3;
+	min-height: 100vh;
+}
+.gallery {
+ 	height: 100vh;
+ 	min-height: 100vh;
+ 	background-color: #8C6954;
+}
+.contact {
+ 	background-color: #6C402E;
+ 	min-height: 100vh;
+ 	height: calc(100vh + 200px);
+}
+.menu {
+	background: #F2EEB3;
+}
+.threeLine {
+	color: black;
+}
+.hiddenMenu a {
+	color: black;
+}
+.hiddenMenu li:hover > a{
+	color: white;
+}
+.hiddenMenu li:hover {
+	color: white;
+	background-color: #260126;
+	transition: 0.2s;
+}
+.backThreeLine {
+	background-color: white;
+}
+@media (min-width: 991px) {
+	.hiddenMenu li:hover {
+		color: white;
+		background-color: transparent;
+		transition: 0s;
+	}
+	.contact {
+		height: 100vh;
+	}
+}
