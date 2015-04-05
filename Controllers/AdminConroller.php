@@ -5,7 +5,7 @@
  * Date: 5. 4. 2015
  * Time: 17:09
  */
-namespace rvele\controllers;
+namespace rvele\Controllers;
 class AdminController {
     
 }

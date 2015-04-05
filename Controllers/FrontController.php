@@ -6,6 +6,6 @@
  * Time: 17:09
  */
 
-namespace rvele\controllers;
+namespace rvele\Controllers;
 class FrontController {
 }
