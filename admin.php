@@ -22,7 +22,6 @@ if ($_POST)
         {
                 $_SESSION['id'] = $uzivatel['id'];
                 $_SESSION['uzivatel_jmeno'] = $_POST['jmeno'];
-                $_SESSION['uzivatel_admin'] = $uzivatel['admin'];
                 header('Location: redakcniSystem.php');
                 exit();
         }
