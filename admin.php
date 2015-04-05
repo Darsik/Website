@@ -1,6 +1,6 @@
 <?php
 session_start();
-require('db.php');
+require('model/db.php');
 Db::connect('127.0.0.1', 'userandpic', 'root', '');
 
 if (isset($_SESSION['id']))
