@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b44a62-4711-44f5-aeb8-5e5e77d728f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdminConroller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FrontController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/web.iml" />
-      <change type="DELETED" beforePath="G:\Xampp\htdocs\web\db.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\Xampp\htdocs\web\img\address.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\Xampp\htdocs\web\img\dlazba.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\Xampp\htdocs\web\img\fasada.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\Xampp\htdocs\web\img\img_back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\Xampp\htdocs\web\img\menuPic.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\Xampp\htdocs\web\img\message.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\Xampp\htdocs\web\img\phone.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\Xampp\htdocs\web\img\zatepleni.JPG" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin.php" afterPath="$PROJECT_DIR$/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,14 +27,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6437177" vertical-offset="17" max-vertical-offset="850">
+            <state vertical-scroll-proportion="-14.384615" vertical-offset="17" max-vertical-offset="850">
               <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
               <folding>
                 <marker date="1428246874300" expanded="true" signature="255:342" placeholder="SELECT id FR..uzivatel..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -167,7 +161,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -234,11 +228,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6437177" vertical-offset="17" max-vertical-offset="850">
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="17" max-vertical-offset="850">
           <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
           <folding>
             <marker date="1428246874300" expanded="true" signature="255:342" placeholder="SELECT id FR..uzivatel..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
